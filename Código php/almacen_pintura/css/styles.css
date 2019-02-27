@@ -1,0 +1,288 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 16px;
+	font-family: 'Raleway', sans-serif;
+	background: #1B1D35;  
+	color: #fff;
+}
+
+a {
+	text-decoration: none;
+	color: #B8711B;
+}
+
+h4 {
+	color: black;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+td {
+	text-align:center;
+}
+
+.contenedor {
+	max-width: 500px;
+	width: 90%;
+	margin: auto;
+}
+
+.contenedor-listado {
+	max-width: 900px;
+	width: 90%;
+	margin: auto;
+}
+
+.contenedor-tabla {
+	background: #2C2C47;
+	padding: 30px;
+	margin-bottom: 30px;
+}
+
+
+.titulo {
+	font-weight: 300;
+	color: #B8711B;
+	text-align: center;
+	margin: 60px 0 30px 0;
+}
+
+.formulario {
+	background: #2C2C47;
+	padding: 30px;
+	margin-bottom: 30px;
+}
+
+.border {
+	border: none;
+	margin-bottom: 5px;
+	border-top: 10px solid #B8711B;
+	background: none;
+	color: none;
+}
+
+.formulario .form-group {
+	width: 100%;
+}
+
+.formulario input[type="text"],
+.formulario input[type="password"],
+.formulario input[type="number"] {
+	padding: 13.5px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	line-height: 18px;
+	border: none;
+	vertical-align: top;
+}
+
+.formulario .icono {
+	padding: 15px;
+	text-align: center;
+	width: 48px;
+	max-height: 48px;
+	font-size: 18px;
+	line-height: 18px;
+	background: #c8c8c8;
+	display: inline-block;
+	color: #6b6b6b;
+}
+
+.formulario .icono.izquierda {
+	margin-right: 4px;
+	-webkit-border-radius: 3px 0 0 3px;
+	-moz-border-radius: 3px 0 0 3px;
+	-ms-border-radius: 3px 0 0 3px;
+	-o-border-radius: 3px 0 0 3px;
+	border-radius: 3px 0 0 3px;
+}
+
+.formulario .nombre_btn,
+.formulario .password_btn,
+.formulario .cantidad_btn {
+	width: calc(100% - 105px);
+	border-radius: 0 3px 3px 0;
+}
+
+.formulario .error ul {
+	padding: 0 15px;
+	margin-top: 5px;
+}
+
+.formulario .error ul li {
+	margin-bottom: 10px;
+	margin-top: 15px;
+}
+
+.texto-registrate,
+.texto-ingresar {
+	text-align: center;
+}
+
+.text-registrate a {
+	display: block;
+	font-size: 18px;
+}
+
+.contenido article {
+	padding: 30px;
+	background: #fff;
+}
+
+.contenido article p {
+	margin-bottom: 10px;
+	color:#000;
+}
+
+.formulario .cliente,
+.formulario .npedido,
+.formulario .password {
+	margin-bottom: 4px;
+	width: calc(100% - 52px);
+	-webkit-border-radius: 0 3px 3px 0;
+	-moz-border-radius: 0 3px 3px 0;
+	-ms-border-radius: 0 3px 3px 0;
+	-o-border-radius: 0 3px 3px 0;
+	border-radius: 0 3px 3px 0;
+}
+
+.formulario .submit-btn {
+	padding: 15px;
+	text-align: center;
+	width: 48px;
+	max-height: 48px;
+	font-size: 18px;
+	line-height: 18px;
+	background: #679863;
+	display: inline-block;
+	color: #fff;
+	background: #769766;
+	cursor: pointer;
+
+	-webkit-border-radius: 0 3px 3px 0;
+	-moz-border-radius: 0 3px 3px 0;
+	-ms-border-radius: 0 3px 3px 0;
+	-o-border-radius: 0 3px 3px 0;
+	border-radius: 0 3px 3px 0;
+
+}
+
+.formulario .select{
+	padding: 12.5px;
+	width: 88%;
+	margin-bottom: 5px;
+    font-size: 18px;
+	line-height: 18px;
+	border: none;
+	font-weight: normal;
+
+	-webkit-border-radius: 0 3px 3px 0;
+	-moz-border-radius: 0 3px 3px 0;
+	-ms-border-radius: 0 3px 3px 0;
+	-o-border-radius: 0 3px 3px 0;
+	border-radius: 0 3px 3px 0;
+}
+
+tr:hover{
+	background: #B8711B;
+}
+
+.formulario .aux {
+	background: #1B1D35;
+}
+
+.direccion {
+	color: black;
+}
+
+.ir-arriba {
+	display: inline-block;
+	padding: 20px;
+	background: #2C2C47;
+	font-size: 20px;
+	color: #fff;
+	cursor: pointer;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
+
+#mdialTamanio {
+  width: 50% !important;
+}
+
+.panel-panel-default {
+	width: 30%;
+	float: left;
+	margin: left;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 25px;
+	border: 1px solid #e6e9ed;
+	-webkit-border-radius: 0 3px 3px 0;
+	-moz-border-radius: 0 3px 3px 0;
+	-ms-border-radius: 0 3px 3px 0;
+	-o-border-radius: 0 3px 3px 0;
+	border-radius: 0 3px 3px 0;
+}
+
+.panel-body {
+	background: #555;
+}
+
+.panel-footer {
+	color: black;
+	text-align: left;
+}
+
+/* WIZARD-STEP */
+.bs-wizard {margin-top: 40px;}
+
+/*Form Wizard*/
+.bs-wizard {border-bottom: solid 1px #e0e0e0; padding: 0 0 10px 0;}
+.bs-wizard > .bs-wizard-step {padding: 0; position: relative;}
+.bs-wizard > .bs-wizard-step + .bs-wizard-step {}
+.bs-wizard > .bs-wizard-step .bs-wizard-stepnum {color: #595959; font-size: 16px; margin-bottom: 5px;}
+.bs-wizard > .bs-wizard-step .bs-wizard-info {color: #999; font-size: 14px;}
+.bs-wizard > .bs-wizard-step > .bs-wizard-dot {position: absolute; width: 30px; height: 30px; display: block; background: #fbe8aa; top: 45px; left: 50%; margin-top: -15px; margin-left: -15px; border-radius: 50%;} 
+.bs-wizard > .bs-wizard-step > .bs-wizard-dot:after {content: ' '; width: 14px; height: 14px; background: #fbbd19; border-radius: 50px; position: absolute; top: 8px; left: 8px; } 
+.bs-wizard > .bs-wizard-step > .progress {position: relative; border-radius: 0px; height: 8px; box-shadow: none; margin: 20px 0;}
+.bs-wizard > .bs-wizard-step > .progress > .progress-bar {width:0px; box-shadow: none; background: #fbe8aa;}
+.bs-wizard > .bs-wizard-step.complete > .progress > .progress-bar {
+    transition-timing-function: linear;
+
+	transition-duration: 1s;
+
+	width:150%;    
+}
+
+
+
+.bs-wizard > .bs-wizard-step.active > .progress > .progress-bar {
+    transition-timing-function: linear;
+
+	transition-delay: 1s;
+
+	transition-duration: 1s;
+
+	width:50%;
+}
+
+.bs-wizard > .bs-wizard-step:first-child.active > .progress > .progress-bar {width:0%;}
+.bs-wizard > .bs-wizard-step:last-child.active > .progress > .progress-bar {width: 100%;}
+.bs-wizard > .bs-wizard-step.disabled > .bs-wizard-dot {background-color: #f5f5f5;}
+.bs-wizard > .bs-wizard-step.disabled > .bs-wizard-dot:after {opacity: 0;}
+.bs-wizard > .bs-wizard-step:first-child  > .progress {left: 50%; width: 50%;}
+.bs-wizard > .bs-wizard-step:last-child  > .progress {width: 50%;}
+.bs-wizard > .bs-wizard-step.disabled a.bs-wizard-dot{ pointer-events: none; }
+/*END Form Wizard*/
+
